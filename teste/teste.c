@@ -2,9 +2,7 @@
 
 int main()
 {
-    int a;
-    int b;
-    int soma;
+    int a, b, soma;
     a=10;
     b=20;
     soma = a+b;
