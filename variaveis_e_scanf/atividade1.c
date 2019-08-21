@@ -6,8 +6,8 @@ int main()
     float b;
     a=10;
     b=11.55;
-    printf("O valor de A eh: %i \n",a);
-    printf("O valor de B eh: %.02f \n",b);
+    printf("O valor de A e: %i \n",a);
+    printf("O valor de B e: %.02f \n",b);
 
     return 0;
 }
