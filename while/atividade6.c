@@ -6,17 +6,14 @@ int main()
 
     printf("Contando os numeros de 1 a 100 tres vezes!\n");
 
-    while (saida<3)
+    while (saida==0)
     {
         num++;
+        quantidade ++;
         printf("%i\n",num);
-        if(num=100)
+        if (quantidade == 100)
         {
-            quantidade++;
-        }
-        else if (quantidade=3)
-        {
-            saida=1;
+            saida = 2;
         }
 
     }
